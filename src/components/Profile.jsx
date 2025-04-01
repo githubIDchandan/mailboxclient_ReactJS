@@ -14,7 +14,7 @@ const Profile = () => {
         <h1 className="text-black"><span className="ml-10 mr-6 text-red-600">Last Login: </span>{user.metadata.lastSignInTime}</h1>
        </div>
        <div className="w-1/3 font-thin py-10 text-3xl">
-         <h1 className="w-fit mx-auto"><span className="ml-7 mr-2 font-bold text-black">Login Id:</span>{user.email}</h1>
+         <h1 className="w-fit mx-auto"><span className="ml-7 mr-2 font-bold text-black">LoginId:</span>{user.email}</h1>
        </div>
     </div>
   )

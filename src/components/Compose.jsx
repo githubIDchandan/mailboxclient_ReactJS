@@ -49,6 +49,7 @@ const Compose = () => {
        writeUserData(tempDiv.textContent || tempDiv.innerText || "",email,"sent",id);
       setSend(!send);
       dispatch(addSent({sender:email,id:id,subject:subject.current.value,reciever:recipient.current.value,msgContent:tempDiv.textContent || tempDiv.innerText || ""}))
+     alert("message has been sent....")
     }
 
 useEffect(()=>{

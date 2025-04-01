@@ -12,6 +12,7 @@ import Starred from "./components/Starred"
 import Draft from "./components/Draft"
 import { useAddInboxDb } from "./hooks/useAddInboxDb"
 import { useAddSentDb } from "./hooks/useAddSentDb"
+import Test from "./components/Test"
 
 
 function App() {
@@ -59,7 +60,8 @@ function App() {
        {
         path:"view/:resId",
         element:<ViewEmail/>
-       }
+       },
+       
       ]
     },
     
